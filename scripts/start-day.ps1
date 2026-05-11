@@ -2,7 +2,7 @@
 # 每天早上 8:30 运行这个脚本，开始今天的概念学习
 # 用法：.\scripts\start-day.ps1
 
-$projectRoot = "D:\personal\Desktop\concept-compound-interest"
+$projectRoot = "D:\learn\concept-compound-interest"
 $date = Get-Date -Format "yyyy-MM-dd"
 $conceptDir = Join-Path $projectRoot "concepts"
 $templatePath = Join-Path $projectRoot "templates" "concept-template.md"

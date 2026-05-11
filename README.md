@@ -28,9 +28,12 @@ concept-compound-interest/
 ├── index.md               # 概念索引
 ├── templates/
 │   └── concept-template.md # 概念笔记模板
-└── concepts/              # 每日笔记
-    ├── 2026-05-11-第一课.md
-    └── ...
+├── concepts/              # 每日笔记
+│   ├── 2026-05-11-选择大于努力.md
+│   └── ...
+└── scripts/
+    ├── start-day.ps1      # 每日启动脚本
+    └── publish.ps1        # 发布到 GitHub 脚本
 ```
 
 ## 概念索引

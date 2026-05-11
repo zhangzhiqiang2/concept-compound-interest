@@ -2,7 +2,7 @@
 # 将本地新增/修改的概念笔记上传到 GitHub
 # 用法：.\scripts\publish.ps1
 
-$projectRoot = "D:\personal\Desktop\concept-compound-interest"
+$projectRoot = "D:\learn\concept-compound-interest"
 $configPath = Join-Path $projectRoot "scripts" ".env"
 
 # 读取 token
